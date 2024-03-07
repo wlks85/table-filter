@@ -1,0 +1,9 @@
+const mongoose = require("mongoose");
+mongoose.Promise = global.Promise;
+const db = {};
+db.mongoose = mongoose;
+db.metadata = require("./metadata")(mongoose);
+db.variable = require("./variable")(mongoose);
+db.variant = require("./variant")(mongoose);
+db.user = require("./user")(mongoose);
+module.exports = db;

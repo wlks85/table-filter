@@ -1,0 +1,2066 @@
+[
+  {
+    "AUDIO_CODE": "mic001",
+    "VARIABLE": "mik_test",
+    "OLD_VAR": "mik_test",
+    "COMMENTS": "unnötig"
+  },
+  {
+    "AUDIO_CODE": "A01",
+    "VARIABLE": "beispiel",
+    "OLD_VAR": "beispiel",
+    "COMMENTS": "unnötig"
+  },
+  {
+    "AUDIO_CODE": "A03",
+    "VARIABLE": "beispiel",
+    "OLD_VAR": "beispiel",
+    "COMMENTS": "unnötig"
+  },
+  {
+    "AUDIO_CODE": "001",
+    "VARIABLE": "hund",
+    "OLD_VAR": "hund",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "002",
+    "VARIABLE": "deckel",
+    "OLD_VAR": "deckel",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "003",
+    "VARIABLE": "morgen",
+    "OLD_VAR": "morgen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "004",
+    "VARIABLE": "glocke",
+    "OLD_VAR": "glocke",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "005",
+    "VARIABLE": "blatt",
+    "OLD_VAR": "blatt",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "006",
+    "VARIABLE": "kelle",
+    "OLD_VAR": "kelle",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "007",
+    "VARIABLE": "lVokalisierungSträäl",
+    "OLD_VAR": "strääl",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "008",
+    "VARIABLE": "trinken",
+    "OLD_VAR": "trinken",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "009",
+    "VARIABLE": "darm",
+    "OLD_VAR": "darm",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "010",
+    "VARIABLE": "fenster",
+    "OLD_VAR": "fenster",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "011",
+    "VARIABLE": "kirche",
+    "OLD_VAR": "kirche",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "012",
+    "VARIABLE": "wolle",
+    "OLD_VAR": "wolle",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "013",
+    "VARIABLE": "melken",
+    "OLD_VAR": "melken",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "014",
+    "VARIABLE": "gern",
+    "OLD_VAR": "gern",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "015",
+    "VARIABLE": "zins",
+    "OLD_VAR": "zins",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "016",
+    "VARIABLE": "pfingsten",
+    "OLD_VAR": "pfingsten",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "017",
+    "VARIABLE": "rad",
+    "OLD_VAR": "rad",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "018",
+    "VARIABLE": "gerste",
+    "OLD_VAR": "gerste",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "019",
+    "VARIABLE": "monat",
+    "OLD_VAR": "monat",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "020",
+    "VARIABLE": "essen",
+    "OLD_VAR": "essen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "021",
+    "VARIABLE": "backen",
+    "OLD_VAR": "backen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "022",
+    "VARIABLE": "achse",
+    "OLD_VAR": "achse",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "023",
+    "VARIABLE": "maschine",
+    "OLD_VAR": "maschine",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "024",
+    "VARIABLE": "hafen",
+    "OLD_VAR": "hafen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "B01",
+    "VARIABLE": "beispiel",
+    "OLD_VAR": "beispiel",
+    "COMMENTS": "unnötig"
+  },
+  {
+    "AUDIO_CODE": "025",
+    "VARIABLE": "butter",
+    "OLD_VAR": "butter_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "025",
+    "VARIABLE": "butterGenus",
+    "OLD_VAR": "butter_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "026",
+    "VARIABLE": "teller",
+    "OLD_VAR": "teller_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "027",
+    "VARIABLE": "sagenKonjunktiv",
+    "OLD_VAR": "schoggi_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "027",
+    "VARIABLE": "schoggiGenus",
+    "OLD_VAR": "schoggi_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "028",
+    "VARIABLE": "pult",
+    "OLD_VAR": "pult_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "029",
+    "VARIABLE": "tunnel",
+    "OLD_VAR": "tunnel_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "030",
+    "VARIABLE": "hochzeit",
+    "OLD_VAR": "hochzeit_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "031",
+    "VARIABLE": "migros",
+    "OLD_VAR": "migros_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "032",
+    "VARIABLE": "kaffee",
+    "OLD_VAR": "kaffee_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "033",
+    "VARIABLE": "tee",
+    "OLD_VAR": "tee_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "034",
+    "VARIABLE": "coop",
+    "OLD_VAR": "coop_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "035",
+    "VARIABLE": "silvester",
+    "OLD_VAR": "silvester_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "036",
+    "VARIABLE": "spitznamenAnnaName",
+    "OLD_VAR": "spitznamen_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "036",
+    "VARIABLE": "spitznamenLukasName",
+    "OLD_VAR": "spitznamen_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "036",
+    "VARIABLE": "spitznamenAnnaGenus",
+    "OLD_VAR": "spitznamen_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "036",
+    "VARIABLE": "spitznamenLukasGenus",
+    "OLD_VAR": "spitznamen_genus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "C01",
+    "VARIABLE": "gehenKonjunktiv",
+    "OLD_VAR": "gehen_konjunktiv",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "037",
+    "VARIABLE": "sehenKonjunktiv",
+    "OLD_VAR": "sehen_konjunktiv",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "038",
+    "VARIABLE": "nehmenKonjunktiv",
+    "OLD_VAR": "nehmen_konjunktiv",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "039",
+    "VARIABLE": "schlagenKonjunktiv",
+    "OLD_VAR": "schlagen_konjunktiv",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "040",
+    "VARIABLE": "sagenKonjunktiv",
+    "OLD_VAR": "sagen_konjunktiv",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "041",
+    "VARIABLE": "kaufenKonjunktiv",
+    "OLD_VAR": "kaufen_konjunktiv",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "042",
+    "VARIABLE": "schlafenKonjunktiv",
+    "OLD_VAR": "schlafen_konjunktiv",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "043",
+    "VARIABLE": "murmeltier",
+    "OLD_VAR": "murmeltier",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "044",
+    "VARIABLE": "schoggistängeli",
+    "OLD_VAR": "schoggistängeli",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "045",
+    "VARIABLE": "dutt",
+    "OLD_VAR": "dutt",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "046",
+    "VARIABLE": "käsekrusteFondue",
+    "OLD_VAR": "kruste_fondue",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "047",
+    "VARIABLE": "parlament",
+    "OLD_VAR": "parlament",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "048",
+    "VARIABLE": "thermometer",
+    "OLD_VAR": "thermometer",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "049",
+    "VARIABLE": "tempel",
+    "OLD_VAR": "tempel",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "050",
+    "VARIABLE": "pinguin",
+    "OLD_VAR": "pinguin",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "051",
+    "VARIABLE": "tomate",
+    "OLD_VAR": "tomate",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "052",
+    "VARIABLE": "fondue",
+    "OLD_VAR": "fondue",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "053",
+    "VARIABLE": "militär",
+    "OLD_VAR": "militär",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "054",
+    "VARIABLE": "kiosk",
+    "OLD_VAR": "kiosk",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "055",
+    "VARIABLE": "franken",
+    "OLD_VAR": "franken",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "056",
+    "VARIABLE": "eidechse",
+    "OLD_VAR": "eidechse",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "057",
+    "VARIABLE": "schnupfen",
+    "OLD_VAR": "schnupfen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "058",
+    "VARIABLE": "nichts",
+    "OLD_VAR": "nichts",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "059",
+    "VARIABLE": "kneifen",
+    "OLD_VAR": "kneifen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "060",
+    "VARIABLE": "pauseMachen",
+    "OLD_VAR": "pause_machen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "061",
+    "VARIABLE": "schaukeln",
+    "OLD_VAR": "schaukeln",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "062",
+    "VARIABLE": "puppe",
+    "OLD_VAR": "puppe",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "063",
+    "VARIABLE": "zöpfe",
+    "OLD_VAR": "zöpfe",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "064",
+    "VARIABLE": "quetschfleck",
+    "OLD_VAR": "quetschfleck",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "065",
+    "VARIABLE": "brotrinde",
+    "OLD_VAR": "brotrinde",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "066",
+    "VARIABLE": "weinenKind",
+    "OLD_VAR": "weinen_kind",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "067",
+    "VARIABLE": "flachkuchen",
+    "OLD_VAR": "flachkuchen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "068",
+    "VARIABLE": "gruss01morgen",
+    "OLD_VAR": "gruss_morgen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "069",
+    "VARIABLE": "gruss02mittag",
+    "OLD_VAR": "gruss_mittag",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "070",
+    "VARIABLE": "gruss03nachmittag",
+    "OLD_VAR": "gruss_nachmittag",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "071",
+    "VARIABLE": "gruss04abend",
+    "OLD_VAR": "gruss_abend",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "072",
+    "VARIABLE": "gruss05wandern",
+    "OLD_VAR": "gruss_wandern",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "073",
+    "VARIABLE": "kuss",
+    "OLD_VAR": "kuss",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "074",
+    "VARIABLE": "dankeserwiderung",
+    "OLD_VAR": "dankeserwiderung",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "075",
+    "VARIABLE": "kondukteur",
+    "OLD_VAR": "kondukteur_kontrolleur",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "076",
+    "VARIABLE": "lokaladverbInZ",
+    "OLD_VAR": "in_z_bern_lagepräposition",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "077",
+    "VARIABLE": "warumWieWoWerWieso",
+    "OLD_VAR": "warum_wie_wo_wer_wieso",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "078",
+    "VARIABLE": "italienisch",
+    "OLD_VAR": "italienisch",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "079",
+    "VARIABLE": "darumRundHaar",
+    "OLD_VAR": "darum_rund_haar",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "080",
+    "VARIABLE": "matthiasRomeo",
+    "OLD_VAR": "matthias_romeo",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "081",
+    "VARIABLE": "handtuch",
+    "OLD_VAR": "handtuch",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "082",
+    "VARIABLE": "entschuldigungVerkäufer",
+    "OLD_VAR": "entschuldigung_verkäufer",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "083",
+    "VARIABLE": "entschuldigungAnrempeln",
+    "OLD_VAR": "entschuldigung_anrempeln",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "084",
+    "VARIABLE": "morgenstund",
+    "OLD_VAR": "morgenstund",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "085",
+    "VARIABLE": "nachAufParisRichtungspräposition",
+    "OLD_VAR": "nach_auf_paris_richtungspräposition",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "086",
+    "VARIABLE": "kosename",
+    "OLD_VAR": "kosename",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "087",
+    "VARIABLE": "tischete",
+    "OLD_VAR": "tischete",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "088",
+    "VARIABLE": "flüstern",
+    "OLD_VAR": "flüstern",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "089",
+    "VARIABLE": "dummkopf",
+    "OLD_VAR": "dummkopf",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "090",
+    "VARIABLE": "plaudern",
+    "OLD_VAR": "plaudern",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "091",
+    "VARIABLE": "ohrfeige",
+    "OLD_VAR": "ohrfeige",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "092",
+    "VARIABLE": "plappermaul",
+    "OLD_VAR": "plappermaul",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "093",
+    "VARIABLE": "urinieren",
+    "OLD_VAR": "urinieren",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "094",
+    "VARIABLE": "mittagessen",
+    "OLD_VAR": "mittagessen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "095",
+    "VARIABLE": "monatsnamen",
+    "OLD_VAR": "monatsnamen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "096",
+    "VARIABLE": "abend",
+    "OLD_VAR": "abend",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "097",
+    "VARIABLE": "fragen",
+    "OLD_VAR": "fragen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "098",
+    "VARIABLE": "fest",
+    "OLD_VAR": "fest",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "099",
+    "VARIABLE": "wespeUmlaut",
+    "OLD_VAR": "wespe",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "100",
+    "VARIABLE": "speck",
+    "OLD_VAR": "speck",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "101",
+    "VARIABLE": "gotte",
+    "OLD_VAR": "gotte",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "102",
+    "VARIABLE": "donnerstag",
+    "OLD_VAR": "donnerstag",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "103",
+    "VARIABLE": "brot",
+    "OLD_VAR": "brot",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "104",
+    "VARIABLE": "küche",
+    "OLD_VAR": "küche",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "105",
+    "VARIABLE": "füchse",
+    "OLD_VAR": "füchse",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "106",
+    "VARIABLE": "schlitten",
+    "OLD_VAR": "schlitten",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "107",
+    "VARIABLE": "schnee",
+    "OLD_VAR": "schnee",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "108",
+    "VARIABLE": "geiss",
+    "OLD_VAR": "geiss",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "109",
+    "VARIABLE": "chriesi",
+    "OLD_VAR": "chriesi",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "110",
+    "VARIABLE": "heuen",
+    "OLD_VAR": "heuen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "111",
+    "VARIABLE": "füsse",
+    "OLD_VAR": "füsse",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "112",
+    "VARIABLE": "augen",
+    "OLD_VAR": "augen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "113",
+    "VARIABLE": "besen",
+    "OLD_VAR": "besen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "114",
+    "VARIABLE": "schneien",
+    "OLD_VAR": "schneien",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "115",
+    "VARIABLE": "baum",
+    "OLD_VAR": "baum",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "116",
+    "VARIABLE": "knie",
+    "OLD_VAR": "knie",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "117",
+    "VARIABLE": "lüpfe",
+    "OLD_VAR": "lüpfe",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "118",
+    "VARIABLE": "schwer",
+    "OLD_VAR": "schwer",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "119",
+    "VARIABLE": "umlautMücke",
+    "OLD_VAR": "mücke",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "120",
+    "VARIABLE": "umlautRücken",
+    "OLD_VAR": "rücken",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "121",
+    "VARIABLE": "käse",
+    "OLD_VAR": "käse",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "G01",
+    "VARIABLE": "beispiel",
+    "OLD_VAR": "beispiel",
+    "COMMENTS": "unnötig"
+  },
+  {
+    "AUDIO_CODE": "122",
+    "VARIABLE": "gehenParadigma",
+    "OLD_VAR": "gehen_paradigma",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "123",
+    "VARIABLE": "gehenPartizip",
+    "OLD_VAR": "gehen_partizip",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "124",
+    "VARIABLE": "seinPlural",
+    "OLD_VAR": "sein_paradigma",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "125",
+    "VARIABLE": "seinPartizip",
+    "OLD_VAR": "sein_partizip",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "126",
+    "VARIABLE": "habenParadigma",
+    "OLD_VAR": "haben_paradigma",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "127",
+    "VARIABLE": "habenPartizip",
+    "OLD_VAR": "haben_partizip",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "128",
+    "VARIABLE": "sehenParadigma",
+    "OLD_VAR": "sehen_paradigma",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "129",
+    "VARIABLE": "kommenParadigma",
+    "OLD_VAR": "kommen_paradigma",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "130",
+    "VARIABLE": "kommenPartizip",
+    "OLD_VAR": "kommen_partizip",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "131",
+    "VARIABLE": "gebracht",
+    "OLD_VAR": "bringen_partizip",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "132",
+    "VARIABLE": "schreibenPartizip",
+    "OLD_VAR": "schreiben_partizip",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "133",
+    "VARIABLE": "trinkenPartizip",
+    "OLD_VAR": "trinken_partizip",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "134",
+    "VARIABLE": "bonbon",
+    "OLD_VAR": "bonbon",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "135",
+    "VARIABLE": "rösti",
+    "OLD_VAR": "rösti",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "136",
+    "VARIABLE": "schürze",
+    "OLD_VAR": "schürze",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "137",
+    "VARIABLE": "schublade",
+    "OLD_VAR": "schublade",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "138",
+    "VARIABLE": "sofa",
+    "OLD_VAR": "sofa",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "139",
+    "VARIABLE": "giesskanne",
+    "OLD_VAR": "giesskanne",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "140",
+    "VARIABLE": "giessen",
+    "OLD_VAR": "giessen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "141",
+    "VARIABLE": "löwenzahn",
+    "OLD_VAR": "löwenzahn",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "142",
+    "VARIABLE": "heidelbeere",
+    "OLD_VAR": "heidelbeere",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "143",
+    "VARIABLE": "apfelüberrest",
+    "OLD_VAR": "apfelüberrest",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "144",
+    "VARIABLE": "zwiebel",
+    "OLD_VAR": "zwiebel",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "145",
+    "VARIABLE": "kartoffel",
+    "OLD_VAR": "kartoffel",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "146",
+    "VARIABLE": "rande",
+    "OLD_VAR": "rande",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "147",
+    "VARIABLE": "ameise",
+    "OLD_VAR": "ameise",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "148",
+    "VARIABLE": "heuschrecke",
+    "OLD_VAR": "heuschrecke",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "149",
+    "VARIABLE": "wange",
+    "OLD_VAR": "wange",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "150",
+    "VARIABLE": "schmetterling",
+    "OLD_VAR": "schmetterling",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "151",
+    "VARIABLE": "biene",
+    "OLD_VAR": "biene",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "152",
+    "VARIABLE": "hahn",
+    "OLD_VAR": "hahn",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "153",
+    "VARIABLE": "kater",
+    "OLD_VAR": "kater",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "154",
+    "VARIABLE": "zaun",
+    "OLD_VAR": "zaun",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "155",
+    "VARIABLE": "pfütze",
+    "OLD_VAR": "pfütze",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "156",
+    "VARIABLE": "brotanfang",
+    "OLD_VAR": "brotanfang",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "157",
+    "VARIABLE": "purzelbaum",
+    "OLD_VAR": "purzelbaum",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "158",
+    "VARIABLE": "taschentuch",
+    "OLD_VAR": "taschentuch",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "159",
+    "VARIABLE": "sommersprossen",
+    "OLD_VAR": "sommersprossen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "160",
+    "VARIABLE": "kirschenPflücken",
+    "OLD_VAR": "kirschen_pflücken",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "161",
+    "VARIABLE": "weinenErwachsene",
+    "OLD_VAR": "weinen_erwachsene",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "162",
+    "VARIABLE": "bernerin",
+    "OLD_VAR": "bernerin",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "163",
+    "VARIABLE": "lVokalisierungSalz",
+    "OLD_VAR": "salz",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "164",
+    "VARIABLE": "nase",
+    "OLD_VAR": "nase",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "165",
+    "VARIABLE": "brille",
+    "OLD_VAR": "brille",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "166",
+    "VARIABLE": "milch",
+    "OLD_VAR": "milch",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "167",
+    "VARIABLE": "apfel",
+    "OLD_VAR": "apfel",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "168",
+    "VARIABLE": "schwester",
+    "OLD_VAR": "schwester",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "169",
+    "VARIABLE": "neu",
+    "OLD_VAR": "neu",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "170",
+    "VARIABLE": "bauen",
+    "OLD_VAR": "bauen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "I01",
+    "VARIABLE": "beispiel",
+    "OLD_VAR": "beispiel",
+    "COMMENTS": "unnötig"
+  },
+  {
+    "AUDIO_CODE": "171",
+    "VARIABLE": "busPlural",
+    "OLD_VAR": "bus_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "172",
+    "VARIABLE": "stielPlural",
+    "OLD_VAR": "stiel_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "173",
+    "VARIABLE": "zweiMänner",
+    "OLD_VAR": "mann_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "174",
+    "VARIABLE": "schneiderinPlural",
+    "OLD_VAR": "schneiderin_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "175",
+    "VARIABLE": "postautoPl",
+    "OLD_VAR": "postauto_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "176",
+    "VARIABLE": "nagelPlural",
+    "OLD_VAR": "nagel_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "177",
+    "VARIABLE": "maus",
+    "OLD_VAR": "maus_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "177",
+    "VARIABLE": "mäuse",
+    "OLD_VAR": "maus_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "178",
+    "VARIABLE": "rosePlural",
+    "OLD_VAR": "rose_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "179",
+    "VARIABLE": "carPlural",
+    "OLD_VAR": "car_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "180",
+    "VARIABLE": "grabPlural",
+    "OLD_VAR": "grab_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "181",
+    "VARIABLE": "bruder",
+    "OLD_VAR": "bruder",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "182",
+    "VARIABLE": "bruderPlural",
+    "OLD_VAR": "bruder_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "183",
+    "VARIABLE": "lVokalisierungSohle",
+    "OLD_VAR": "sohle",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "184",
+    "VARIABLE": "sohlePlural",
+    "OLD_VAR": "sohle_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "185",
+    "VARIABLE": "themaPlural",
+    "OLD_VAR": "thema_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "186",
+    "VARIABLE": "bettPhon",
+    "OLD_VAR": "bett",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "187",
+    "VARIABLE": "bettPlural",
+    "OLD_VAR": "bett_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "188",
+    "VARIABLE": "tanne",
+    "OLD_VAR": "tanne",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "189",
+    "VARIABLE": "tannePlural",
+    "OLD_VAR": "tanne_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "190",
+    "VARIABLE": "umlautBrücke",
+    "OLD_VAR": "brücke",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "191",
+    "VARIABLE": "brückePlural",
+    "OLD_VAR": "brücke_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "_les000",
+    "VARIABLE": "lesetextDialekt",
+    "OLD_VAR": "lesetext_dialekt",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "192",
+    "VARIABLE": "spinnennetz",
+    "OLD_VAR": "spinnennetz",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "193",
+    "VARIABLE": "nähen",
+    "OLD_VAR": "nähen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "194",
+    "VARIABLE": "spucken",
+    "OLD_VAR": "spucken",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "195",
+    "VARIABLE": "weihnachten",
+    "OLD_VAR": "weihnachten",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "196",
+    "VARIABLE": "schlittschuhlaufen",
+    "OLD_VAR": "schlittschuh_laufen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "197",
+    "VARIABLE": "regenschirm",
+    "OLD_VAR": "regenschirm",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "198",
+    "VARIABLE": "küken",
+    "OLD_VAR": "küken",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "199",
+    "VARIABLE": "marienkäfer",
+    "OLD_VAR": "marienkäfer",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "200",
+    "VARIABLE": "hier",
+    "OLD_VAR": "hier_da",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "201",
+    "VARIABLE": "zeitung",
+    "OLD_VAR": "zeitung",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "202",
+    "VARIABLE": "rechnung",
+    "OLD_VAR": "rechnung",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "203",
+    "VARIABLE": "fliege",
+    "OLD_VAR": "fliege",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "204",
+    "VARIABLE": "sonne",
+    "OLD_VAR": "sonne",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "205",
+    "VARIABLE": "kerze",
+    "OLD_VAR": "kerze",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "206",
+    "VARIABLE": "schwägerin",
+    "OLD_VAR": "schwägerin",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "207",
+    "VARIABLE": "schneiden",
+    "OLD_VAR": "schneiden",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "208",
+    "VARIABLE": "umlautDrücken",
+    "OLD_VAR": "drücken",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "209",
+    "VARIABLE": "tragenGetragen",
+    "OLD_VAR": "tragen_getragen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "210",
+    "VARIABLE": "kind",
+    "OLD_VAR": "kind",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "211",
+    "VARIABLE": "brüeli",
+    "OLD_VAR": "brüeli",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "212",
+    "VARIABLE": "fragi",
+    "OLD_VAR": "fragi",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "213",
+    "VARIABLE": "läsi",
+    "OLD_VAR": "läsi",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "214",
+    "VARIABLE": "murmel",
+    "OLD_VAR": "murmeln_glaskugeln",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "215",
+    "VARIABLE": "pferd",
+    "OLD_VAR": "pferd",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "216",
+    "VARIABLE": "baby",
+    "OLD_VAR": "baby",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "217",
+    "VARIABLE": "treppe",
+    "OLD_VAR": "treppe",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "218",
+    "VARIABLE": "diminuitivApfel",
+    "OLD_VAR": "apfel_diminutiv",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "219",
+    "VARIABLE": "diminuitivRad",
+    "OLD_VAR": "rad_diminutiv",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "220",
+    "VARIABLE": "diminuitivRadDativPlural",
+    "OLD_VAR": "rad_diminutiv_dativ_plural",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "221",
+    "VARIABLE": "hundDiminuitiv",
+    "OLD_VAR": "hund_diminutiv",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "M01",
+    "VARIABLE": "beispiel",
+    "OLD_VAR": "beispiel",
+    "COMMENTS": "unnötig"
+  },
+  {
+    "AUDIO_CODE": "222",
+    "VARIABLE": "katzeIstWild",
+    "OLD_VAR": "katze_ist_wild",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "223",
+    "VARIABLE": "dreiFrauen",
+    "OLD_VAR": "drei_frauen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "224",
+    "VARIABLE": "lVokalisierungFolgen",
+    "OLD_VAR": "folge",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "225",
+    "VARIABLE": "durch",
+    "OLD_VAR": "durch",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "226",
+    "VARIABLE": "gewesenBin",
+    "OLD_VAR": "gewesen_bin",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "227",
+    "VARIABLE": "heiser",
+    "OLD_VAR": "heiser",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "228",
+    "VARIABLE": "zweiKinder",
+    "OLD_VAR": "zwei_kinder",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "229",
+    "VARIABLE": "dortDrüben",
+    "OLD_VAR": "dort_drüben",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "230",
+    "VARIABLE": "kommHerein",
+    "OLD_VAR": "komm_herein",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "231",
+    "VARIABLE": "heraus",
+    "OLD_VAR": "heraus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "232",
+    "VARIABLE": "herunter",
+    "OLD_VAR": "herunter_jemand",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "232",
+    "VARIABLE": "jemand",
+    "OLD_VAR": "herunter_jemand",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "233",
+    "VARIABLE": "herauf",
+    "OLD_VAR": "herauf",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "234",
+    "VARIABLE": "nochmalHinauf",
+    "OLD_VAR": "nochmal_hinauf",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "235",
+    "VARIABLE": "nochmalHinunter",
+    "OLD_VAR": "nochmal_hinunter",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "236",
+    "VARIABLE": "dreiMänner",
+    "OLD_VAR": "drei_männer",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "237",
+    "VARIABLE": "meineCousine",
+    "OLD_VAR": "neulich_cousine",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "238",
+    "VARIABLE": "baumIstDürr",
+    "OLD_VAR": "baum_ist_dürr",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "239",
+    "VARIABLE": "schluckauf",
+    "OLD_VAR": "schluckauf",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "240",
+    "VARIABLE": "michMir",
+    "OLD_VAR": "mich_erwischt_keiner",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "241",
+    "VARIABLE": "bekommen",
+    "OLD_VAR": "erhalten_zwei_franken",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "242",
+    "VARIABLE": "ganzFlexion",
+    "OLD_VAR": "die_ganze_nacht",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "243",
+    "VARIABLE": "hausIstAlt",
+    "OLD_VAR": "haus_ist_alt",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "244",
+    "VARIABLE": "derPatrick",
+    "OLD_VAR": "patrick_kommt_heute_nicht",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "245",
+    "VARIABLE": "ziegenbockIstWild",
+    "OLD_VAR": "ziegenbock_ist_wild",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "246",
+    "VARIABLE": "etwas",
+    "OLD_VAR": "immer_etwas_klagen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "247",
+    "VARIABLE": "siehstDuJemanden",
+    "OLD_VAR": "siehst_du_jemanden",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "248",
+    "VARIABLE": "keineKirschen",
+    "OLD_VAR": "keine_kirschen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "249",
+    "VARIABLE": "hinaus",
+    "OLD_VAR": "hinaus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "250",
+    "VARIABLE": "mirjamsHut",
+    "OLD_VAR": "mirjams_hut",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "251",
+    "VARIABLE": "hundIstWild",
+    "OLD_VAR": "hund_ist_wild",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "252",
+    "VARIABLE": "kommtRegnen",
+    "OLD_VAR": "es_kommt_regnen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "253",
+    "VARIABLE": "einHaus",
+    "OLD_VAR": "ein_haus",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "254",
+    "VARIABLE": "einBaum",
+    "OLD_VAR": "ein_baum",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "255",
+    "VARIABLE": "eineFrau",
+    "OLD_VAR": "eine_frau",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "256",
+    "VARIABLE": "sonstWirdEsNichtSauber",
+    "OLD_VAR": "sonst_wird_es_nicht_sauber",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "257",
+    "VARIABLE": "lassIhnGehen",
+    "OLD_VAR": "lass_ihn_gehen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "258",
+    "VARIABLE": "inDenSinn",
+    "OLD_VAR": "in_den_sinn",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "259",
+    "VARIABLE": "kommenWerden",
+    "OLD_VAR": "sonst_wirst_du_krank",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "260",
+    "VARIABLE": "futur",
+    "OLD_VAR": "morgen_verreisen_futur",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "261",
+    "VARIABLE": "draussen",
+    "OLD_VAR": "draussen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "262",
+    "VARIABLE": "drinnen",
+    "OLD_VAR": "drinnen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "263",
+    "VARIABLE": "gehenLassenVergangenheit",
+    "OLD_VAR": "hat_ihn_gehen_lassen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "N01",
+    "VARIABLE": "beispiel",
+    "OLD_VAR": "beispiel",
+    "COMMENTS": "unnötig"
+  },
+  {
+    "AUDIO_CODE": "264",
+    "VARIABLE": "ja",
+    "OLD_VAR": "ja",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "265",
+    "VARIABLE": "spät",
+    "OLD_VAR": "spät",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "266",
+    "VARIABLE": "ndVelarisierungFinden",
+    "OLD_VAR": "finden",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "267",
+    "VARIABLE": "tag",
+    "OLD_VAR": "tag",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "268",
+    "VARIABLE": "geminateHimmel",
+    "OLD_VAR": "himmel",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "268",
+    "VARIABLE": "lVokalisierungHimmel",
+    "OLD_VAR": "himmel",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "269",
+    "VARIABLE": "alt",
+    "OLD_VAR": "alt",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "270",
+    "VARIABLE": "FALSCH",
+    "OLD_VAR": "FALSCH",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "271",
+    "VARIABLE": "nein",
+    "OLD_VAR": "nein",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "272",
+    "VARIABLE": "schön",
+    "OLD_VAR": "schön",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "273",
+    "VARIABLE": "tief",
+    "OLD_VAR": "tief",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "274",
+    "VARIABLE": "alteMänner",
+    "OLD_VAR": "alte_männer",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "275",
+    "VARIABLE": "langeÄste",
+    "OLD_VAR": "lange_äste",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "276",
+    "VARIABLE": "späterWinter",
+    "OLD_VAR": "später_winter",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "277",
+    "VARIABLE": "langeZöpfe",
+    "OLD_VAR": "lange_zöpfe",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "278",
+    "VARIABLE": "bäumeBlühenSpät",
+    "OLD_VAR": "bäume_blühen_spät",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "279",
+    "VARIABLE": "erSieEsIstBlind",
+    "OLD_VAR": "er_sie_es_ist_blind",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "280",
+    "VARIABLE": "könnenKomisch",
+    "OLD_VAR": "können_komisch",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "281",
+    "VARIABLE": "beimKaffeeTrinken",
+    "OLD_VAR": "beim_kaffee_trinken",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "282",
+    "VARIABLE": "kurzeNacht",
+    "OLD_VAR": "kurze_nacht_wegen_der_kurzen_nacht",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "283",
+    "VARIABLE": "neueBücher",
+    "OLD_VAR": "neue_bücher_in_den_neuen_büchern",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "284",
+    "VARIABLE": "dichDir",
+    "OLD_VAR": "blumen_sind_nicht_für_dich",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "285",
+    "VARIABLE": "zweiFrauen",
+    "OLD_VAR": "zwei_frauen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "286",
+    "VARIABLE": "villaIstVerkauftWorden",
+    "OLD_VAR": "villa_ist_verkauft_worden",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "287",
+    "VARIABLE": "konsonantEis",
+    "OLD_VAR": "eis_fängt_an_zu_schmelzen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "287",
+    "VARIABLE": "vokalEis",
+    "OLD_VAR": "eis_fängt_an_zu_schmelzen",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "288",
+    "VARIABLE": "tee_heiss_trinken",
+    "OLD_VAR": "tee_heiss_trinken",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "289",
+    "VARIABLE": "weilErNassIst",
+    "OLD_VAR": "weil_er_nass_ist",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "290",
+    "VARIABLE": "damit_sie_trocknen_kann",
+    "OLD_VAR": "damit_sie_trocknen_kann",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "291",
+    "VARIABLE": "du_bist_er_ist_gesund",
+    "OLD_VAR": "du_bist_er_ist_gesund",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "292",
+    "VARIABLE": "schau",
+    "OLD_VAR": "schau",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "293",
+    "VARIABLE": "er_kommt_heute_nicht",
+    "OLD_VAR": "er_kommt_heute_nicht",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "294",
+    "VARIABLE": "suppe_ist_fad",
+    "OLD_VAR": "suppe_ist_fad",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "295",
+    "VARIABLE": "dreiKinder",
+    "OLD_VAR": "drei_kinder",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "296",
+    "VARIABLE": "papiersack_ist_leer",
+    "OLD_VAR": "papiersack_ist_leer",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "297",
+    "VARIABLE": "zahlwortEins",
+    "OLD_VAR": "zahl_1",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "298",
+    "VARIABLE": "zahlwortZwei",
+    "OLD_VAR": "zahl_2",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "299",
+    "VARIABLE": "zahlwortDrei",
+    "OLD_VAR": "zahl_3",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "300",
+    "VARIABLE": "zahlwortVier",
+    "OLD_VAR": "zahl_4",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "301",
+    "VARIABLE": "zahlwortFünf",
+    "OLD_VAR": "zahl_5",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "302",
+    "VARIABLE": "sechs",
+    "OLD_VAR": "zahl_6",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "303",
+    "VARIABLE": "zahlwortSieben",
+    "OLD_VAR": "zahl_7",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "304",
+    "VARIABLE": "zahlwortAcht",
+    "OLD_VAR": "zahl_8",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "305",
+    "VARIABLE": "zahlwortNeun",
+    "OLD_VAR": "zahl_9",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "306",
+    "VARIABLE": "zahlwortZehn",
+    "OLD_VAR": "zahl_10",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "307",
+    "VARIABLE": "zahlwortElf",
+    "OLD_VAR": "zahl_11",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "308",
+    "VARIABLE": "zahlwortZwölf",
+    "OLD_VAR": "zahl_12",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "309",
+    "VARIABLE": "zahlwortFünfzehn",
+    "OLD_VAR": "zahl_15",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "310",
+    "VARIABLE": "zahlwortZwanzig",
+    "OLD_VAR": "zahl_20",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "311",
+    "VARIABLE": "zahlwortFünfundzwanzig",
+    "OLD_VAR": "zahl_25",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "312",
+    "VARIABLE": "zahlwortFünfzig",
+    "OLD_VAR": "zahl_50",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "313",
+    "VARIABLE": "zahlwortSechzig",
+    "OLD_VAR": "zahl_60",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "314",
+    "VARIABLE": "zahlwortFünfundachtzig",
+    "OLD_VAR": "zahl_85",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "315",
+    "VARIABLE": "zahlwortEintausend",
+    "OLD_VAR": "zahl_1000",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "hoh001",
+    "VARIABLE": "lesetext_standarddeutsch",
+    "OLD_VAR": "lesetext_standarddeutsch",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "imi001",
+    "VARIABLE": "imitation_training1",
+    "OLD_VAR": "imitation_training1",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "imi002",
+    "VARIABLE": "imitation_training2",
+    "OLD_VAR": "imitation_training2",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "imi003",
+    "VARIABLE": "imitation_test1",
+    "OLD_VAR": "imitation_test1",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "imi004",
+    "VARIABLE": "imitation_test2",
+    "OLD_VAR": "imitation_test2",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "imi005",
+    "VARIABLE": "imitation_test3",
+    "OLD_VAR": "imitation_test3",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "P03",
+    "VARIABLE": "imitation_sprache_kommentar",
+    "OLD_VAR": "imitation_sprache_kommentar",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "yan001",
+    "VARIABLE": "yanny_laurel",
+    "OLD_VAR": "yanny_laurel",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "ivw001",
+    "VARIABLE": "interview",
+    "OLD_VAR": "interview",
+    "COMMENTS": ""
+  },
+  {
+    "AUDIO_CODE": "map001",
+    "VARIABLE": "draw-a-map_kommentar",
+    "OLD_VAR": "draw-a-map_kommentar",
+    "COMMENTS": ""
+  }
+]
