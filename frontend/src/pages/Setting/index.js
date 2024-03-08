@@ -27,7 +27,6 @@ export default function Setting() {
     setMetaDataFile(newValue);
   };
 
-  
   const handleVariableSubmit = () => {
     if (!variableFile) return;
     setVariableLoading(true);
@@ -39,6 +38,7 @@ export default function Setting() {
       .then((res) => {
         setVariableFile(null);
         setVariableLoading(false);
+        setMessage(res.data.message);
       })
       .catch((err) => {
         setMessage(err.response.data.message);
@@ -56,6 +56,7 @@ export default function Setting() {
       .then((res) => {
         setMetaDataFile(null);
         setMetadataLoading(false);
+        setMessage(res.data.message);
       })
       .catch((err) => {
         setMessage(err.response.data.message);
