@@ -21,6 +21,15 @@ const variantSchema = (data) => {
 
 exports.addOne = async (req, res) => {
   try {
+    let mdatas = await Metadata.find({}).exec();
+
+    if (mdatas.length > 0) {
+      return res.status(400).send({
+        status: false,
+        message: "Woops!, MetaData Already Uploaded!",
+      });
+    }
+
     /** CSV File read and store to variant */
     let data = await readCSV(req.file.path, variantSchema);
     const metadata = await Metadata.insertMany(data);
@@ -34,14 +43,14 @@ exports.addOne = async (req, res) => {
   } catch (err) {
     res.status(500).send({
       success: false,
-      message: "Something went wrong!",
+      message: err.message,
     });
   }
 };
 
 exports.getAll = async (req, res) => {
   const { variants, variables, paginationModel } = req.query;
-  
+
   const skip = Number(paginationModel.page) * Number(paginationModel.pageSize);
 
   /** FILTER */

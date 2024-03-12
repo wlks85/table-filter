@@ -28,9 +28,10 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(false);
   const [getParam, setGetParam] = useState([]);
   const [rowCount, setRowCount] = useState(100000);
+
   const [paginationModel, setPaginationModel] = useState({
     page: 0,
-    pageSize: 10,
+    pageSize: 1000,
   });
 
   const columns = [
