@@ -1,4 +1,10 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import {
   Autocomplete,
   Box,
@@ -20,7 +26,7 @@ import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
 import { Link } from "react-router-dom";
 
 export default function Dashboard() {
-  const [selectedVariants, setSelectedVariants] = useState();
+  const [selectedVariants, setSelectedVariants] = useState([]);
   const [variables, setVariables] = useState([]);
   const [selectedVariable, setSelectedVariable] = useState();
   const [variants, setVariants] = useState([]);
@@ -135,6 +141,7 @@ export default function Dashboard() {
   ];
 
   useEffect(() => {
+    console.log("fetch variable call");
     axios
       .get("/api/variables")
       .then((res) => {
@@ -144,20 +151,20 @@ export default function Dashboard() {
       .catch(() => {});
   }, []);
 
-  useEffect(() => {
-    axios
-      .get("/api/variants", {
-        params: {
-          variables: [selectedVariable],
-        },
-      })
-      .then((res) => {
-        const { variants } = res.data;
-        setSelectedVariants([]);
-        setVariants(variants);
-      })
-      .catch(() => {});
-  }, [selectedVariable]);
+  // useEffect(() => {
+  //   axios
+  //     .get("/api/variants", {
+  //       params: {
+  //         variables: [selectedVariable],
+  //       },
+  //     })
+  //     .then((res) => {
+  //       const { variants } = res.data;
+  //       setSelectedVariants([]);
+  //       setVariants(variants);
+  //     })
+  //     .catch(() => {});
+  // }, [selectedVariable]);
 
   useEffect(() => {
     setLoading(true);
@@ -165,7 +172,6 @@ export default function Dashboard() {
       .get("/api/metadata", {
         params: {
           variants: selectedVariants,
-          variables: [...[], selectedVariable],
           paginationModel,
         },
       })
@@ -182,10 +188,43 @@ export default function Dashboard() {
         setRowCount(total);
       })
       .catch(() => {});
-  }, [selectedVariable, selectedVariants, paginationModel]);
+  }, [selectedVariants, paginationModel]);
 
-  const handleVariableChange = (event, value) => {
-    setSelectedVariable(value);
+  const handleVariableChange = (value) => {
+    console.log("fetch variable");
+    axios
+      .get("/api/variants", {
+        params: {
+          variables: [value],
+        },
+      })
+      .then((res) => {
+        const { variants } = res.data;
+        setSelectedVariants([]);
+        setVariants(variants);
+      })
+      .catch(() => {});
+
+    axios
+      .get("/api/metadata", {
+        params: {
+          variables: [...[], value],
+          paginationModel,
+        },
+      })
+      .then((res) => {
+        let { data, total } = res.data;
+        let metadata = data.map((item) => {
+          return Object.assign({}, item.metadata, {
+            filepath: item.filepath,
+            variant_1: item.variant_1,
+          });
+        });
+        console.log("fetch variable after load data");
+        setMetadata(metadata);
+        setRowCount(total);
+      })
+      .catch(() => {});
   };
 
   const handleVariantChange = (event, value) => {
@@ -193,9 +232,13 @@ export default function Dashboard() {
     setGetParam(value);
   };
 
-  const handlePaginationModelChange = (model) => {
-    setPaginationModel(model);
-  };
+  // const handlePaginationModelChange = (model) => {
+  //   setPaginationModel(model);
+  // };
+
+  console.log("metadata outside", metadata);
+
+  console.log("metadata outside", metadata);
 
   return (
     <Box
@@ -220,7 +263,8 @@ export default function Dashboard() {
               options={variables}
               getOptionLabel={(option) => option.name}
               onChange={(event, newValue) => {
-                setSelectedVariable(newValue);
+                // setSelectedVariable(newValue);
+                handleVariableChange(newValue);
               }}
               renderOption={(props, option) => {
                 return (
@@ -271,7 +315,7 @@ export default function Dashboard() {
               Metadata
             </Typography>
           </Stack>
-          {!loading ? (
+          {!loading && metadata.length > 0 ? (
             <DataGridPro
               rows={metadata}
               columns={columns}
@@ -287,7 +331,7 @@ export default function Dashboard() {
               paginationMode="server"
               paginationModel={paginationModel}
               onPaginationModelChange={(model) => setPaginationModel(model)}
-              pageSizeOptions={[10, 25, 50, 100, 1000]}
+              pageSizeOptions={[1000, 1500, 2000, 2500, 3000]}
               style={{ maxWidth: "1920px" }}
             />
           ) : (
