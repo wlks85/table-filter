@@ -184,18 +184,19 @@ export default function Dashboard() {
       .catch(() => {});
   }, [selectedVariable, selectedVariants, paginationModel]);
 
-  const handleVariableChange = (event, value) => {
-    setSelectedVariable(value);
-  };
+  // const handleVariableChange = (event, value) => {
+  //   setSelectedVariable(value);
+  // };
 
   const handleVariantChange = (event, value) => {
     setSelectedVariants(value);
     setGetParam(value);
   };
 
-  const handlePaginationModelChange = (model) => {
-    setPaginationModel(model);
-  };
+  // const handlePaginationModelChange = (model) => {
+  //   setPaginationModel(model);
+  // };
+  console.log("metadata", metadata);
 
   return (
     <Box
@@ -271,28 +272,28 @@ export default function Dashboard() {
               Metadata
             </Typography>
           </Stack>
-          {!loading ? (
-            <DataGridPro
-              rows={metadata}
-              columns={columns}
-              getRowId={(row) => row._id}
-              initialState={{
-                pagination: {
-                  pinnedColumns: { left: ["uid"], right: ["mobility"] },
-                  paginationModel: { page: 0, pageSize: 10 },
-                },
-              }}
-              pagination
-              rowCount={rowCount}
-              paginationMode="server"
-              paginationModel={paginationModel}
-              onPaginationModelChange={(model) => setPaginationModel(model)}
-              pageSizeOptions={[10, 25, 50, 100, 1000]}
-              style={{ maxWidth: "1920px" }}
-            />
-          ) : (
-            <CircularProgress size={32} sx={{ marginTop: 9 }} />
-          )}
+
+          <DataGridPro
+            rows={metadata}
+            columns={columns}
+            getRowId={(row) => row._id}
+            initialState={{
+              pagination: {
+                pinnedColumns: { left: ["uid"], right: ["mobility"] },
+                paginationModel: { page: 0, pageSize: 10 },
+              },
+            }}
+            pagination
+            rowCount={rowCount}
+            paginationMode="server"
+            paginationModel={paginationModel}
+            onPaginationModelChange={(model) => setPaginationModel(model)}
+            pageSizeOptions={[10, 25, 50, 100, 1000]}
+            style={{ maxWidth: "1920px" }}
+            rowsLoadingMode={"server"}
+            GridLoadIcon={<CircularProgress size={32} sx={{ marginTop: 9 }} />}
+            loading={loading}
+          />
         </Grid>
       </Grid>
     </Box>
