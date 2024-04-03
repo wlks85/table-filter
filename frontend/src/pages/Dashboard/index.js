@@ -189,7 +189,7 @@ export default function Dashboard() {
         setRowCount(total);
       })
       .catch(() => {});
-  }, [paginationModel]);
+  }, [selectedVariants, paginationModel]);
 
   const handleVariableChange = (value) => {
     console.log("fetch variable");
