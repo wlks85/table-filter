@@ -151,23 +151,24 @@ export default function Dashboard() {
       .catch(() => {});
   }, []);
 
-  // useEffect(() => {
-  //   axios
-  //     .get("/api/variants", {
-  //       params: {
-  //         variables: [selectedVariable],
-  //       },
-  //     })
-  //     .then((res) => {
-  //       const { variants } = res.data;
-  //       setSelectedVariants([]);
-  //       setVariants(variants);
-  //     })
-  //     .catch(() => {});
-  // }, [selectedVariable]);
+  useEffect(() => {
+    axios
+      .get("/api/variants", {
+        params: {
+          variables: [selectedVariable],
+        },
+      })
+      .then((res) => {
+        const { variants } = res.data;
+        setSelectedVariants([]);
+        setVariants(variants);
+      })
+      .catch(() => {});
+  }, [selectedVariable]);
 
   useEffect(() => {
-    setLoading(true);
+    console.log("useEffect MetaData");
+    // setLoading(true);
     axios
       .get("/api/metadata", {
         params: {
@@ -183,12 +184,12 @@ export default function Dashboard() {
             variant_1: item.variant_1,
           });
         });
-        setLoading(false);
+        // setLoading(false);
         setMetadata(metadata);
         setRowCount(total);
       })
       .catch(() => {});
-  }, [selectedVariants, paginationModel]);
+  }, [paginationModel]);
 
   const handleVariableChange = (value) => {
     console.log("fetch variable");
@@ -232,13 +233,13 @@ export default function Dashboard() {
     setGetParam(value);
   };
 
-  // const handlePaginationModelChange = (model) => {
-  //   setPaginationModel(model);
-  // };
+  const handlePaginationModelChange = (model) => {
+    setPaginationModel(model);
+  };
 
   console.log("metadata outside", metadata);
-
-  console.log("metadata outside", metadata);
+  console.log("metadata loading", loading);
+  console.log("metadata variables", variables);
 
   return (
     <Box
@@ -315,7 +316,7 @@ export default function Dashboard() {
               Metadata
             </Typography>
           </Stack>
-          {!loading && metadata.length > 0 ? (
+          {!loading ? (
             <DataGridPro
               rows={metadata}
               columns={columns}
@@ -330,7 +331,10 @@ export default function Dashboard() {
               rowCount={rowCount}
               paginationMode="server"
               paginationModel={paginationModel}
-              onPaginationModelChange={(model) => setPaginationModel(model)}
+              onPaginationModelChange={(model) => {
+                // setPaginationModel(model);
+                handlePaginationModelChange(model);
+              }}
               pageSizeOptions={[1000, 1500, 2000, 2500, 3000]}
               style={{ maxWidth: "1920px" }}
             />
