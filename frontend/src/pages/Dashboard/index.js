@@ -191,51 +191,19 @@ export default function Dashboard() {
       .catch(() => {});
   }, [selectedVariants, paginationModel]);
 
-  const handleVariableChange = (value) => {
-    console.log("fetch variable");
-    axios
-      .get("/api/variants", {
-        params: {
-          variables: [value],
-        },
-      })
-      .then((res) => {
-        const { variants } = res.data;
-        setSelectedVariants([]);
-        setVariants(variants);
-      })
-      .catch(() => {});
-
-    axios
-      .get("/api/metadata", {
-        params: {
-          variables: [...[], value],
-          paginationModel,
-        },
-      })
-      .then((res) => {
-        let { data, total } = res.data;
-        let metadata = data.map((item) => {
-          return Object.assign({}, item.metadata, {
-            filepath: item.filepath,
-            variant_1: item.variant_1,
-          });
-        });
-        console.log("fetch variable after load data");
-        setMetadata(metadata);
-        setRowCount(total);
-      })
-      .catch(() => {});
-  };
+  // const handleVariableChange = (event, value) => {
+  //   setSelectedVariable(value);
+  // };
 
   const handleVariantChange = (event, value) => {
     setSelectedVariants(value);
     setGetParam(value);
   };
 
-  const handlePaginationModelChange = (model) => {
-    setPaginationModel(model);
-  };
+  // const handlePaginationModelChange = (model) => {
+  //   setPaginationModel(model);
+  // };
+  console.log("metadata", metadata);
 
   console.log("metadata outside", metadata);
   console.log("metadata loading", loading);
@@ -316,31 +284,27 @@ export default function Dashboard() {
               Metadata
             </Typography>
           </Stack>
-          {!loading ? (
-            <DataGridPro
-              rows={metadata}
-              columns={columns}
-              getRowId={(row) => row._id}
-              initialState={{
-                pagination: {
-                  pinnedColumns: { left: ["uid"], right: ["mobility"] },
-                  paginationModel: { page: 0, pageSize: 10 },
-                },
-              }}
-              pagination
-              rowCount={rowCount}
-              paginationMode="server"
-              paginationModel={paginationModel}
-              onPaginationModelChange={(model) => {
-                // setPaginationModel(model);
-                handlePaginationModelChange(model);
-              }}
-              pageSizeOptions={[1000, 1500, 2000, 2500, 3000]}
-              style={{ maxWidth: "1920px" }}
-            />
-          ) : (
-            <CircularProgress size={32} sx={{ marginTop: 9 }} />
-          )}
+          <DataGridPro
+            rows={metadata}
+            columns={columns}
+            getRowId={(row) => row._id}
+            initialState={{
+              pagination: {
+                pinnedColumns: { left: ["uid"], right: ["mobility"] },
+                paginationModel: { page: 0, pageSize: 10 },
+              },
+            }}
+            pagination
+            rowCount={rowCount}
+            paginationMode="server"
+            paginationModel={paginationModel}
+            onPaginationModelChange={(model) => setPaginationModel(model)}
+            pageSizeOptions={[10, 25, 50, 100, 1000]}
+            style={{ maxWidth: "1920px" }}
+            rowsLoadingMode={"server"}
+            GridLoadIcon={<CircularProgress size={32} sx={{ marginTop: 9 }} />}
+            loading={loading}
+          />
         </Grid>
       </Grid>
     </Box>
