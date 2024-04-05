@@ -19,6 +19,7 @@ exports.addOne = async (req, res) => {
     let variable_name = decodeURIComponent(escape(req.file.originalname));
     variable_name = variable_name.slice(0, variable_name.length - 4);
     let variable = await Variable.findOne({ name: variable_name });
+
     if (variable) {
       variable.name = variable_name;
       await variable.save();
@@ -26,6 +27,7 @@ exports.addOne = async (req, res) => {
       variable = await Variable.create({
         name: variable_name,
       });
+
       let ac = acs.filter(
         (item) => item.VARIABLE.normalize() == variable_name.normalize()
       );

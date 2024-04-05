@@ -97,6 +97,7 @@ exports.getAll = async (req, res) => {
   });
 
   const total = await Variant.countDocuments({});
+
   Variant.aggregate(filter)
     .then((data) => {
       res.send({
