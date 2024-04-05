@@ -1,13 +1,16 @@
-import { Outlet, useNavigate } from 'react-router-dom';
-import { useAuth } from '../hooks/useAuth';
+import { Outlet, useNavigate } from "react-router-dom";
+import { useAuth } from "../hooks/useAuth";
+import { useEffect } from "react";
 
 export const AuthGuard = () => {
   const navigate = useNavigate();
   const { isAuthenticated } = useAuth();
 
-  if (!isAuthenticated) {
-    return navigate('/login');
-  }
+  useEffect(() => {
+    if (!isAuthenticated) {
+      return navigate("/login");
+    }
+  }, [isAuthenticated]);
 
   return <Outlet />;
 };

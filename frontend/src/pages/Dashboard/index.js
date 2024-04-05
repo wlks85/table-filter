@@ -1,4 +1,10 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import {
   Autocomplete,
   Box,
@@ -20,7 +26,7 @@ import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
 import { Link } from "react-router-dom";
 
 export default function Dashboard() {
-  const [selectedVariants, setSelectedVariants] = useState();
+  const [selectedVariants, setSelectedVariants] = useState([]);
   const [variables, setVariables] = useState([]);
   const [selectedVariable, setSelectedVariable] = useState();
   const [variants, setVariants] = useState([]);
@@ -135,6 +141,7 @@ export default function Dashboard() {
   ];
 
   useEffect(() => {
+    console.log("fetch variable call");
     axios
       .get("/api/variables")
       .then((res) => {
@@ -160,12 +167,12 @@ export default function Dashboard() {
   }, [selectedVariable]);
 
   useEffect(() => {
-    setLoading(true);
+    console.log("useEffect MetaData");
+    // setLoading(true);
     axios
       .get("/api/metadata", {
         params: {
           variants: selectedVariants,
-          variables: [...[], selectedVariable],
           paginationModel,
         },
       })
@@ -177,12 +184,12 @@ export default function Dashboard() {
             variant_1: item.variant_1,
           });
         });
-        setLoading(false);
+        // setLoading(false);
         setMetadata(metadata);
         setRowCount(total);
       })
       .catch(() => {});
-  }, [selectedVariable, selectedVariants, paginationModel]);
+  }, [selectedVariants, paginationModel]);
 
   // const handleVariableChange = (event, value) => {
   //   setSelectedVariable(value);
@@ -197,6 +204,10 @@ export default function Dashboard() {
   //   setPaginationModel(model);
   // };
   console.log("metadata", metadata);
+
+  console.log("metadata outside", metadata);
+  console.log("metadata loading", loading);
+  console.log("metadata variables", variables);
 
   return (
     <Box
@@ -221,7 +232,8 @@ export default function Dashboard() {
               options={variables}
               getOptionLabel={(option) => option.name}
               onChange={(event, newValue) => {
-                setSelectedVariable(newValue);
+                // setSelectedVariable(newValue);
+                handleVariableChange(newValue);
               }}
               renderOption={(props, option) => {
                 return (
@@ -272,7 +284,6 @@ export default function Dashboard() {
               Metadata
             </Typography>
           </Stack>
-
           <DataGridPro
             rows={metadata}
             columns={columns}
