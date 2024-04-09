@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import {
   Autocomplete,
   Box,
@@ -159,7 +159,7 @@ export default function Dashboard() {
       .catch(() => {});
   }, [selectedVariable]);
 
-  useEffect(() => {
+  const fetchMetaData = useCallback(() => {
     setLoading(true);
     axios
       .get("/api/metadata", {
@@ -184,13 +184,67 @@ export default function Dashboard() {
       .catch(() => {});
   }, [selectedVariable, selectedVariants, paginationModel]);
 
-  // const handleVariableChange = (event, value) => {
-  //   setSelectedVariable(value);
+  useEffect(() => {
+    selectedVariable && fetchMetaData();
+  }, [selectedVariable, selectedVariants, paginationModel, fetchMetaData]);
+
+  // const fetchMetaDataWithVariable = (sVariable) => {
+  //   console.log("svariable", sVariable);
+  //   axios
+  //     .get("/api/metadata", {
+  //       params: {
+  //         variables: [...[], sVariable],
+  //         paginationModel,
+  //       },
+  //     })
+  //     .then((res) => {
+  //       let { data, total } = res.data;
+  //       let metadata = data.map((item) => {
+  //         return Object.assign({}, item.metadata, {
+  //           filepath: item.filepath,
+  //           variant_1: item.variant_1,
+  //         });
+  //       });
+  //       setLoading(false);
+  //       setMetadata(metadata);
+  //       setRowCount(total);
+  //     })
+  //     .catch(() => {});
   // };
+
+  // const fetchMetaDataWithVariant = (sVariants) => {
+  //   console.log("sVariants", sVariants);
+  //   axios
+  //     .get("/api/metadata", {
+  //       params: {
+  //         variants: sVariants,
+  //         paginationModel,
+  //       },
+  //     })
+  //     .then((res) => {
+  //       let { data, total } = res.data;
+  //       let metadata = data.map((item) => {
+  //         return Object.assign({}, item.metadata, {
+  //           filepath: item.filepath,
+  //           variant_1: item.variant_1,
+  //         });
+  //       });
+  //       setLoading(false);
+  //       setMetadata(metadata);
+  //       setRowCount(total);
+  //     })
+  //     .catch(() => {});
+  // };
+
+  const handleVariableChange = (value) => {
+    setSelectedVariable(value);
+    // fetchMetaDataWithVariable(value);
+  };
 
   const handleVariantChange = (event, value) => {
     setSelectedVariants(value);
     setGetParam(value);
+    // fetchMetaDataWithVariant(value);
   };
 
   // const handlePaginationModelChange = (model) => {
@@ -221,7 +275,8 @@ export default function Dashboard() {
               options={variables}
               getOptionLabel={(option) => option.name}
               onChange={(event, newValue) => {
-                setSelectedVariable(newValue);
+                // setSelectedVariable(newValue);
+                handleVariableChange(newValue);
               }}
               renderOption={(props, option) => {
                 return (
