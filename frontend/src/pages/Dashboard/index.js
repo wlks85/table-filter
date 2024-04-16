@@ -107,7 +107,7 @@ export default function Dashboard() {
     },
     {
       field: "mobility",
-      headerName: "Mobility",
+      headerName: "Consent",
       width: 150,
     },
 
@@ -188,63 +188,13 @@ export default function Dashboard() {
     selectedVariable && fetchMetaData();
   }, [selectedVariable, selectedVariants, paginationModel, fetchMetaData]);
 
-  // const fetchMetaDataWithVariable = (sVariable) => {
-  //   console.log("svariable", sVariable);
-  //   axios
-  //     .get("/api/metadata", {
-  //       params: {
-  //         variables: [...[], sVariable],
-  //         paginationModel,
-  //       },
-  //     })
-  //     .then((res) => {
-  //       let { data, total } = res.data;
-  //       let metadata = data.map((item) => {
-  //         return Object.assign({}, item.metadata, {
-  //           filepath: item.filepath,
-  //           variant_1: item.variant_1,
-  //         });
-  //       });
-  //       setLoading(false);
-  //       setMetadata(metadata);
-  //       setRowCount(total);
-  //     })
-  //     .catch(() => {});
-  // };
-
-  // const fetchMetaDataWithVariant = (sVariants) => {
-  //   console.log("sVariants", sVariants);
-  //   axios
-  //     .get("/api/metadata", {
-  //       params: {
-  //         variants: sVariants,
-  //         paginationModel,
-  //       },
-  //     })
-  //     .then((res) => {
-  //       let { data, total } = res.data;
-  //       let metadata = data.map((item) => {
-  //         return Object.assign({}, item.metadata, {
-  //           filepath: item.filepath,
-  //           variant_1: item.variant_1,
-  //         });
-  //       });
-  //       setLoading(false);
-  //       setMetadata(metadata);
-  //       setRowCount(total);
-  //     })
-  //     .catch(() => {});
-  // };
-
   const handleVariableChange = (value) => {
     setSelectedVariable(value);
-    // fetchMetaDataWithVariable(value);
   };
 
   const handleVariantChange = (event, value) => {
     setSelectedVariants(value);
     setGetParam(value);
-    // fetchMetaDataWithVariant(value);
   };
 
   // const handlePaginationModelChange = (model) => {
