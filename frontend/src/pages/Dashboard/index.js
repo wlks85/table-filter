@@ -16,6 +16,7 @@ import {
 } from "@mui/material";
 import { DataGridPro } from "@mui/x-data-grid-pro";
 import axios from "../../utils/axios";
+import AudioPlayPauseCell from "../../components/AudioPlayPauseCell/AudioPlayPauseCell";
 import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
 import { Link } from "react-router-dom";
 
@@ -51,19 +52,25 @@ export default function Dashboard() {
       field: "play/pause",
       headerName: "Play/Pause",
       width: 300,
-      renderCell: (params) => {
-        if (params.value != "#") {
-          return (
-            <audio controls>
-              <source
-                src={`https://wanitsch.ch/sdats-manager/audio/${params.row.filepath}.flac`}
-                // type="audio"
-              ></source>
-            </audio>
-          );
-        }
-      },
+      renderCell: AudioPlayPauseCell,
     },
+    // {
+    //   field: "play/pause",
+    //   headerName: "Play/Pause",
+    //   width: 300,
+    //   renderCell: (params) => {
+    //     if (params.value != "#") {
+    //       return (
+    //         <audio controls>
+    //           <source
+    //             src={`https://wanitsch.ch/sdats-manager/audio/${params.row.filepath}.flac`}
+    //             // type="audio"
+    //           ></source>
+    //         </audio>
+    //       );
+    //     }
+    //   },
+    // },
 
     {
       field: "place",
