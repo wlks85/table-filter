@@ -1,11 +1,14 @@
 import Routes from "./routers";
 import { AuthProvider } from "./contexts/authContext";
+import { AudioProvider } from "./contexts/AudioContext";
 
 const App = () => {
   return (
-    <AuthProvider>
-      <Routes />
-    </AuthProvider>
+    <AudioProvider>
+      <AuthProvider>
+        <Routes />
+      </AuthProvider>
+    </AudioProvider>
   );
 };
 
