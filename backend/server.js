@@ -1,5 +1,5 @@
 const express = require("express");
-const https = require("https");
+const http = require("http");
 const path = require("path");
 const fs = require("fs");
 const cors = require("cors");
@@ -44,12 +44,17 @@ require("./routes/variant")(app);
 require("./routes/metadata")(app);
 require("./routes/auth")(app);
 
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+});
 // const httpsServer = https.createServer(credentials, app);
 
 // httpsServer.listen(443, () => {
 //   console.log("HTTPS Server is running on Port 443");
 // });
 
-app.listen(config.PORT, () => {
+const server = http.createServer(app);
+
+server.listen(config.PORT, () => {
   console.log("Server is running on PORT 5000");
 });
